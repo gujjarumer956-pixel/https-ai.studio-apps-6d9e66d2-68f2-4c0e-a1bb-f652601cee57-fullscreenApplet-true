@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom cinematic glow and film grain effects */
+.cinematic-glow {
+  box-shadow: 0 0 50px -10px rgba(245, 158, 11, 0.15);
+}
+
+.cinematic-lens-rim {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}

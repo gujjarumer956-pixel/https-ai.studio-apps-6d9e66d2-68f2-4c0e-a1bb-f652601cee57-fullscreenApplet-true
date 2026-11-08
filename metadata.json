@@ -1,0 +1,6 @@
+{
+  "name": "ufg.ai - Cinematic AI Video Generator",
+  "description": "Generate high-definition cinematic videos from text prompts with customizable camera motions, cinematic styles, and tiered generation plans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
